@@ -71,6 +71,7 @@ xmrig::Algorithm::Family xmrig::Algorithm::family(Id id)
     case DEFYX:
     case RX_ARQ:
     case RX_SFX:
+    case RX_EVO:
         return RANDOM_X;
 #   endif
 
